@@ -31,6 +31,7 @@ Squarewin2 = drawpad.create_rectangle(430,260,470,220, fill = 'red')
 Squarewin3 = drawpad.create_rectangle(290,350,330,310, fill = 'blue')
 Squarewin4 = drawpad.create_rectangle(430,350,470,310, fill = 'pink')
 Rectangledoor = drawpad.create_rectangle(370,400,400,350, fill = 'brown')
+#Door handle and Chimney
 
 
 
