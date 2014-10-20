@@ -25,4 +25,19 @@ drawpad.grid(row=0, column=1)
 # Roof and Base
 Square = drawpad.create_rectangle(260,400,500,200, fill = 'grey')
 Triangle = drawpad.create_polygon(260,200,370,80,500,200, fill = 'blue')
+#Windows and doors
+Squarewin1 = drawpad.create_rectangle(290,260,330,220, fill = 'purple')
+Squarewin2 = drawpad.create_rectangle(430,260,470,220, fill = 'red')
+Squarewin3 = drawpad.create_rectangle(290,350,330,310, fill = 'blue')
+Squarewin4 = drawpad.create_rectangle(430,350,470,310, fill = 'pink')
+Rectangledoor = drawpad.create_rectangle(370,400,400,350, fill = 'brown')
+
+
+
+
+
+
+
+
+
 root.mainloop()
