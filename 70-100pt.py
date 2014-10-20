@@ -21,8 +21,8 @@ root = Tk()
 # Create the canvas widget
 drawpad = Canvas(root, width=800,height=600, background='white')
 drawpad.grid(row=0, column=1)
-
 # Insert your code here to draw the house!
-
-
+# Roof and Base
+Square = drawpad.create_rectangle(260,400,500,200, fill = 'grey')
+Triangle = drawpad.create_polygon(260,200,370,80,500,200, fill = 'blue')
 root.mainloop()
