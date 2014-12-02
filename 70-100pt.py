@@ -41,6 +41,4 @@ grass1 = drawpad.create_rectangle(150,460,630,400, fill = 'green')
 grass2 = drawpad.create_rectangle(150,400,260,300, fill = 'green')
 grass3 = drawpad.create_rectangle(500,400,630,300, fill = 'green')
 
-
-
 root.mainloop()
